@@ -3,7 +3,7 @@ simple python back-end
 
 ## Pegar o projeto
 *Execute na linha de comando*
-> git clone git@github.com:lavesan/python-back-end.git<br />
+> git clone git@github.com:lavesan/python-server.git<br />
 > npm i
 
 # Rodando
