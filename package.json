@@ -1,0 +1,21 @@
+{
+  "name": "python-server",
+  "version": "1.0.0",
+  "description": "A simple python serving pages",
+  "main": "servidor-python/server.py",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon servidor-python/server.py"
+  },
+  "keywords": [
+    "python",
+    "back-end",
+    "javascript",
+    "socket"
+  ],
+  "author": "Valdery Alves Paes Júnior <valdery.jur@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  }
+}

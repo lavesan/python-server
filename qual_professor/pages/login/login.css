@@ -1,0 +1,12 @@
+body {
+    background-color: #9e42f4;
+}
+
+.login-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}

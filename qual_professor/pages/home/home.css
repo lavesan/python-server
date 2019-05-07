@@ -1,0 +1,29 @@
+body {
+    background-color: #412c49;
+}
+
+.body-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    padding: 10px;
+    border: thin solid #000;
+    background-color: #9e42f4;
+    width: 350px;
+}
+
+.info-box button {
+    padding: 10px;
+    cursor: pointer;
+    color: #FFF;
+    background-color: #412c49;
+    border: none;
+    border-radius: 4px;
+}
