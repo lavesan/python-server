@@ -6,8 +6,8 @@ simple python back-end
 1. Tenha python3
 2. Tenha node 8+<br />
 ***Execute:***
-1. git clone git@github.com:lavesan/python-server.git
-2. npm i
+* git clone git@github.com:lavesan/python-server.git
+* npm i
 
 # Rodando o projeto
 Digite na linha de comando de algum terminal
