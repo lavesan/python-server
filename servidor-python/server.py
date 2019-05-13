@@ -59,4 +59,5 @@ while True:
             #     response = 'HTTP/1.0 200 OK\r\nContent-Type: image/jpg\r\nContent-Length: ' + str(len(getStringIcon())) + '\r\n\r\n', getStringIcon()
             #     conn.sendall(bytes(response))
     finally:
-        print('finalizando')
+        print('finalizando a conexão')
+        connection.close()
