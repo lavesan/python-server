@@ -60,4 +60,4 @@ while True:
             #     conn.sendall(bytes(response))
     finally:
         print('finalizando a conexão')
-        connection.close()
+        # connection.close()

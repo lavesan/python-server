@@ -1,24 +1,57 @@
 body {
-    background-color: #412c49;
+  background-color: #000;
 }
 
 .content-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .details-box {
-    width: 900px;
-    padding: 20px;
-    background-color: #9e42f4;
+  width: 60%;
+  min-width: 650px;
+  padding: 20px;
+  background-color: #fff;
 }
 
-span {
-    display: inline-block;
+.details-box .info-table {
+  width: 100%;
+}
+
+.details-box .info-table span {
+  display: inline-block;
+}
+
+.details-box .info-table tbody tr {
+  height: 55px;
 }
 
 .head-row span {
-    width: 16%;
-    text-align: end;
+  width: 16%;
+  text-align: end;
+}
+
+.one {
+  color: red;
+}
+
+.two {
+  color: rgb(255, 81, 0);
+}
+
+.three {
+  color: rgb(255, 123, 0);
+}
+
+.four {
+  color: rgb(241, 234, 32);
+}
+
+.five {
+  color: green;
+}
+
+.six {
+  color: rgb(126, 241, 32);
 }

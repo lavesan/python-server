@@ -1,16 +1,22 @@
-const http = require('http')
-const express = require('express')
-const socketIO = require('socket.io')
-const port = 8080;
+const http = require("http");
 
-const app = express()
-const server = http.createServer(app)
-const io = socketIO(server)
+const options = {
+  socketPath: "localhost",
+  path: "/login"
+};
 
-server.listen(port, () => {
-    console.log(`Conectado na porta ${port}`)
-})
+const callback = res => {
+  console.log(`STATUS: ${res.statusCode}`);
+  res.setEncoding("utf8");
+  res.on("data", data => console.log(data));
+  res.on("error", data => console.error(data));
+};
 
-const socket = io()
+const clientRequest = http.request(options, callback);
+console.log("rodando o código");
+console.log(clientRequest);
+clientRequest.end();
 
-socket.on('GET ')
+document.getElementById("nome").addEventListener("click", function() {
+  console.log("cliquei");
+});
