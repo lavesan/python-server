@@ -1,4 +1,5 @@
-function getPassword(e) {
-    console.log(e.target.value)
-}
-console.log('tou rodando bixo')
+setTimeout(() => {
+    document.getElementById('access').onclick = function () {
+        window.location = 'http://localhost:8080/home';
+    }
+}, 1000);

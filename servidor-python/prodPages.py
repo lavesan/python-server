@@ -52,11 +52,3 @@ def getBytesDistHtml(page):
                 'Content-Length: ' + str(len(dist_page)) + '\r\n\r\n' +
                 (dist_page))
         return bytes(header, 'utf-8')
-
-
-def getIcon(icon):
-        return bytes(('HTTP/1.0 200 OK\r\n' +
-                'Content-Type: image/jpeg; charset=ISO-8859-1\r\n' +
-                'Access-Control-Allow-Origin: *\r\n' +
-                'Content-Length: ' + str(len(icon)) + '\r\n\r\n' +
-                (icon) + ' charset=ISO-8859-1'), 'utf-8')

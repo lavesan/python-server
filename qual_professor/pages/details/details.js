@@ -1,6 +1,7 @@
-const http = require('http')
 const express = require('express')
+console.log('1')
 const socketIO = require('socket.io')
+console.log('2')
 const port = 8080;
 
 const app = express()
