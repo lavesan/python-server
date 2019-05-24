@@ -3,10 +3,10 @@ import os
 project_name = 'qual_professor'
 head = '<head>'
 body = '<body>'
-def getProductionHtml(index, html, js, css):
+def getProductionHtml(index, html, css, js):
         index_with_head = index.replace(head, head + '\n<style type="text/css">\n' + 
-                        js + '\n</style>\n' + '<script type="text/javascript">\n' + 
-                        css + '\n</script>\n')
+                        css + '\n</style>\n' + '<script type="text/javascript">\n' + 
+                        js + '\n</script>\n')
         return index_with_head.replace(body, body + html)
 
 def loadDist(pages_list):
