@@ -1,5 +1,4 @@
-import socket, sys, os, struct, json
-import base64
+import socket, sys, os
 from prodPages import getBytesDistHtml
 
 # Create a TCP/IP socket
