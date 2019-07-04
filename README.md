@@ -25,4 +25,4 @@ Esse projeto usa nodemon, então é só salvar o arquivo que ele atualiza
     ```
   * execute: choco install python3
   
-  https://www.getpostman.com/collections/a8d8a26ae803746c475a
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/a8d8a26ae803746c475a)
