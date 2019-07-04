@@ -24,3 +24,5 @@ Esse projeto usa nodemon, então é só salvar o arquivo que ele atualiza
     @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
     ```
   * execute: choco install python3
+  
+  https://www.getpostman.com/collections/a8d8a26ae803746c475a
